@@ -2,7 +2,7 @@ version: "3.1"
 services:
 
   jupyter-debian:
-    image: keineahnung2345/edgarperezsampedro-blog_docker
+    image: keineahnung2345/edgarperezsampedro-blog_docker:20181126
     ports:
       - "8888:8888"
     links:
